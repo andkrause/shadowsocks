@@ -1,4 +1,4 @@
-FROM ghcr.io/shadowsocks/ssserver-rust:v1.23.4
+FROM ghcr.io/shadowsocks/ssserver-rust:v1.24.0
 
 RUN apk add --no-cache iptables \
     && mkdir /overwrite
